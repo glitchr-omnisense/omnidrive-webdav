@@ -1,17 +1,17 @@
 # omnidrive/webdav
 
 A collection of a WebDAV server - Nextcloud, ownCloud, Apache's mod_dav, nginx, any - as an
-[omniscient/omnidrive](https://github.com/glitchr-studio/omnidrive) drive, through
+[omnisense/omnidrive](https://github.com/glitchr-omnisense/omnidrive) drive, through
 league/flysystem-webdav (`WebDAVAdapter`, sabre/dav's client over cURL). Nextcloud's and ownCloud's
 collection of a user is `https://<host>/remote.php/dav/files/<user>/`.
 
 ## Installation
 
 ```sh
-composer require omniscient/omnidrive omnidrive/webdav
+composer require omnisense/omnidrive omnidrive/webdav
 ```
 
-Requires PHP 8.2 with cURL, `omniscient/omnidrive` (1.x) and `league/flysystem-webdav` (^3.0,
+Requires PHP 8.2 with cURL, `omnisense/omnidrive` (1.x) and `league/flysystem-webdav` (^3.0,
 `sabre/dav`).
 
 ## Credentials
@@ -111,4 +111,4 @@ digest and NTLM authentication, a proxy.
 
 An independent, unofficial client, not affiliated with The PHP League, sabre/dav, Nextcloud or ownCloud. Whoever runs it is responsible for the data it stores and the
 access it gives (a public or temporary address serves the file to whoever holds it); see the core's
-Responsibility section ([omniscient/omnidrive](https://github.com/glitchr-studio/omnidrive#responsibility)).
+Responsibility section ([omnisense/omnidrive](https://github.com/glitchr-omnisense/omnidrive#responsibility)).

@@ -1,11 +1,11 @@
 # omnidrive/webdav
 
 A collection of a WebDAV server - Nextcloud, ownCloud, Apache's mod_dav, nginx, any - as an
-[omnidrive](https://github.com/glitchr-studio/omnidrive) drive, through league/flysystem-webdav
+[omnidrive](https://github.com/glitchr-omnisense/omnidrive) drive, through league/flysystem-webdav
 (sabre/dav's client, cURL).
 
 ```sh
-composer require omniscient/omnidrive omnidrive/webdav
+composer require omnisense/omnidrive omnidrive/webdav
 ```
 
 ```php
