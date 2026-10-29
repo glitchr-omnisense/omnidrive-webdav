@@ -44,4 +44,6 @@ the first operation.
   answer is a `DriveException` of the operation asked.
 - Not verified: ownCloud, nginx's WebDAV, digest and NTLM authentication, a proxy.
 
-License: MIT. Unofficial; not affiliated with The PHP League, sabre/dav, Nextcloud or ownCloud.
+## Responsibility
+
+Unofficial; affiliated with none of the servers it reaches, nor with The PHP League, sabre/dav, Nextcloud or ownCloud. Each server keeps its own terms; whoever runs this package answers for the credentials it holds, the data it stores and the access a public address gives. MIT licence.
