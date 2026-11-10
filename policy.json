@@ -1,0 +1,38 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "webdav",
+    "rateLimits": [],
+    "concurrency": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": false,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": false,
+            "text": null,
+            "url": null,
+            "where": []
+        },
+        "licence": null
+    },
+    "requirements": {
+        "key": true,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": null,
+        "policy": null,
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": null,
+        "notes": "No third party of this package's: the drive is a WebDAV server the site names (its own Apache or Nextcloud, or a rented one), over league/flysystem-webdav and sabre/dav's client; the package calls no service of its own and its server publishes no terms here, so no limit ([]). A rented server's operator's terms are the site's to add. The key is the server's account. Nothing is retried: a PUT (idempotent: the same file written again), a DELETE (idempotent), a MOVE or a COPY is sent once."
+    }
+}
